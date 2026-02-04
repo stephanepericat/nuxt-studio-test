@@ -28,6 +28,7 @@
     "@unhead/vue": "^2.1.2",
     "better-sqlite3": "^12.6.2",
     "nuxt": "^4.3.0",
+    "nuxt-studio": "1.2.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {

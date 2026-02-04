@@ -8,8 +8,11 @@ export default defineNuxtConfig({
     '@nuxt/hints',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/test-utils'
+    '@nuxt/test-utils',
+    'nuxt-studio'
   ],
+
+  ssr: true,
 
   devtools: {
     enabled: true
@@ -29,6 +32,15 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
+    }
+  },
+
+  studio: {
+    repository: {
+      provider: 'github',
+      owner: 'stephanepericat',
+      repo: 'nuxt-studio-test',
+      branch: 'main'
     }
   }
 })
