@@ -1,0 +1,43 @@
+{
+  "name": "studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "test:unit": "vitest --project unit",
+    "test:nuxt": "vitest --project nuxt"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.87",
+    "@iconify-json/simple-icons": "^1.2.68",
+    "@nuxt/a11y": "1.0.0-alpha.1",
+    "@nuxt/content": "3.11.0",
+    "@nuxt/hints": "1.0.0-alpha.6",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/scripts": "0.13.2",
+    "@nuxt/test-utils": "3.23.0",
+    "@nuxt/ui": "^4.4.0",
+    "@unhead/vue": "^2.1.2",
+    "better-sqlite3": "^12.6.2",
+    "nuxt": "^4.3.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.13.0",
+    "@vitest/coverage-v8": "^4.0.18",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18",
+    "vue-tsc": "^3.2.4"
+  },
+  "packageManager": "pnpm@10.28.2+sha512.41872f037ad22f7348e3b1debbaf7e867cfd448f2726d9cf74c08f19507c31d2c8e7a11525b983febc2df640b5438dee6023ebb1f84ed43cc2d654d2bc326264"
+}
