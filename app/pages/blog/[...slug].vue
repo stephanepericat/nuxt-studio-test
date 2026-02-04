@@ -5,7 +5,7 @@ const route = useRoute()
 
 const { data: page } = await useAsyncData(() =>
   queryCollection('blog')
-    .path(`/blog/${route.params.slug?.join('/')}`)
+    .path(`/blog/${route.params.slug}`)
     .first()
 )
 
