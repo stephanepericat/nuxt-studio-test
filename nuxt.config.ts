@@ -20,6 +20,14 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  content: {
+    database: {
+      type: 'libsql',
+      url: process.env.TURSO_DATABASE_URL!,
+      authToken: process.env.TURSO_AUTH_TOKEN!
+    }
+  },
+
   routeRules: {
     '/': { prerender: true }
   },
